@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+/* button {
+    padding: 1rem;
+    border: 0;
+    background-color: #84394e;
+    border-radius: 5px;
+    color: #f8f9fc;
+    font-weight: 700;
+    cursor: pointer;
+}
+.generate-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+p {
+    color: #f8f9fc;
+}
+span {
+    color: #72b757;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Gentium Book Plus', serif;
+    min-height: 100vh;
+    background-color: #080b12;
+}
+.password {
+    background-color: lightslategray;
+    width: 120px;
+    text-align: center;
+    color: white;
+}
+.card-wrapper {
+    width: 450px;
+    padding:1rem ;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141b2e;
+    gap: 10rem;
+    border-radius:20px ;
+    margin-top: 120px;
+}
+.generate-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid black;
+} */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+    #generate{
+    border: 0;
+    padding: 0.5rem;
+    background-color: #0c1418;
+    color: white;
+    width: 60%;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rambla', sans-serif;
+    background-color: #eaf2f5;
+  }
+  .card-wrapper {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    background-color: #477d94;
+    border-radius: 3% ;
+    margin-inline:0.5rem ;
+  }
+  .generate-wrapper {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  h1 {
+    color: #d9e7ed;
+  }
+  span {
+    color:#0c1418 ;
+  }
+  .passwords-wrapper {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .password {
+    background-color: #0c1418;
+    color: white;
+    width: 38%;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    overflow: hidden;
+  }
+  .pass {
+    background-color: #0c1418;
+    border: 0;
+    text-align: center;
+    width: 80%;
+    color: white;
+    cursor: pointer;
+  }
+  .copy {
+    opacity: 0;
+    width: 0;
+
+  }
+  p {
+    color:#d9e7ed ;
+  }
+  .pass:focus {
+    outline: none;
+  }
+  @media (max-width:320px) {
+    .length {
+        width: 90%;
+    }
+  }

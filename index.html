@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-wrapper">
+        <h1>Password <span>Generator</span></h1>
+        <div class="generate-wrapper">
+            <div class="length">
+                <input min="8" value="8" step="2" max="14" type="range" name="" id="slider">
+                <p id="tooltip">Length: <span>8</span></p></div>
+            <button id="generate">Generate Password</button>
+            <p>* You can copy by clicking on the password</p>
+        </div>
+        <div class="passwords-wrapper">
+            <div class="password">
+                <input  id="password1" readonly class="pass" type="text" value="">
+            </div>
+            <div class="password">
+                <input id="password2" readonly class="pass" type="text" value="">
+            </div>
+            <div class="password" >
+                <input id="password3" readonly class="pass" type="text" value="">
+            </div>
+            <div class="password" >
+                <input id="password4" readonly class="pass" type="text" value="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
